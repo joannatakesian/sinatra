@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Mastermind Game</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    
+    <body>
+        
+        <h1>Mastermind</h1>
+        
+        <h2>Guesses:</h2>
+        <%= guesses.join(", ") %>
+        
+        <form>
+            <label>Guess:</label>
+            <input type="text" name="guess">
+            <input type="submit" value="Guess">
+        </form>
+        
+    </body>
+</html>
